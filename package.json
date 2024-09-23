@@ -2,9 +2,10 @@
   "name": "08-express-mongodb",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
-    "run": "node dist/server.js"
+    "run": "node --env-file .env dist/server.js"
   },
   "keywords": [
     "express",
